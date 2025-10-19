@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart ATM Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="atm-container">
+        <h1>Smart ATM</h1>
+        <div class="screen" id="display">0</div>
+        <div class="keypad">
+            <button class="key number">1</button>
+            <button class="key number">2</button>
+            <button class="key number">3</button>
+            <button class="key number">4</button>
+            <button class="key number">5</button>
+            <button class="key number">6</button>
+            <button class="key number">7</button>
+            <button class="key number">8</button>
+            <button class="key number">9</button>
+            <button class="key clear">C</button>
+            <button class="key number">0</button>
+            <button class="key enter">Enter</button>
+        </div>
+        <div class="error" id="errorMsg">Cannot dispense the exact amount.</div>
+        <div class="result" id="result">
+            <h3>Dispensed Notes</h3>
+            <div class="denomination-list" id="denominations"></div>
+            <h3 id="totalNotes"></h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
