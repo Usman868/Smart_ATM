@@ -31,8 +31,6 @@ The ATM supports these Pakistani currency notes:
 
 [5000, 1000, 500, 100, 50, 20, 10]
 
-markdown
-Copy code
 
 It can only dispense amounts that are multiples of **10**.  
 If you enter an unsupported amount (like `1255`), it will show an error message.
@@ -84,9 +82,6 @@ Handles:
 ├── index.html # Main HTML structure
 ├── style.css # ATM design and styles
 └── app.js # ATM functionality and logic
-
-yaml
-Copy code
 
 ---
 
